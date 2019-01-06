@@ -1,0 +1,60 @@
+# Site
+repository: sproogen/resume-theme
+# favicon: images/favicon.ico
+
+# Personal info
+name: Ahmet ŞAHİN
+title: Teknik Destek & Proje Mühendisi
+email: ahmetsahin111@gmail.com
+website: ahmetsah.github.io
+
+# Social links
+#twitter_username: oeadeul
+github_username:  ahmetsah
+# dribbble_username: jekyll
+facebook_username: oeadeul
+# flickr_username: jekyll
+instagram_username: oeadeul
+linkedin_username: ahmetsah
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+
+# About Section
+# about_title: About Me
+about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  Merhaba, benim adım Ahmet ve ben uzman otomasyon proje mühendisiyim. 
+
+  I am most skilled in: <mark> PLC </mark> and <mark> SCADA </mark>
+
+# Projects Section
+# projects_title: Projects
+
+# Experience Section
+# experience_title: Experience
+
+# Education Section
+# educaton_title: Education
+
+# More Section
+# more_title: A Little More About Me
+more_content: | # this will include new lines to allow paragraphs
+  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
+   - Climbing
+   - Gaming
+   - Knitting
+   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+# Footer
+footer_show_references: true
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
